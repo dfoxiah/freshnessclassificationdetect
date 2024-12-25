@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['Bad_apple', 'Bad_banana', 'Bad_guava', 'Bad_lime', 'Bad_orange', 'Bad_pomegranate', 'Good_apple', 'Good_banana', 'Good_guava', 'Good_lime', 'Good_orange', 'Good_pomegranate']
+
+roboflow:
+  workspace: yolov5-object-detection-pfqcv
+  project: fruitqualitydetection_demo1-w7ouw
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov5-object-detection-pfqcv/fruitqualitydetection_demo1-w7ouw/dataset/2
